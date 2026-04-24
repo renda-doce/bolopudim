@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Método Bolo Pudim — Venda Fatias por R$29,90 e Esgote em Minutos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./index_files/css2" rel="stylesheet">
+
+<style>
+:root {
+  --brown:    #3D1A08;
+  --caramel:  #8B4513;
+  --gold:     #C8860A;
+  --cream:    #FDF6EC;
+  --warm:     #FAF0E4;
+  --light:    #FFF9F2;
+  --text:     #1C0F05;
+  --mid:      #5C3317;
+  --muted:    #8B6B52;
+  --white:    #FFFFFF;
+  --red:      #B91C1C;
+  --green:    #166534;
+  --green-bg: #F0FDF4;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--light);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ── NOISE TEXTURE overlay ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ─────────────────────────────────────────────
+   HERO
+───────────────────────────────────────────── */
+.hero {
+  background: var(--brown);
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.hero-top-bar {
+  background: var(--gold);
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--brown);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.hero-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 72px 24px 80px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-eyebrow {
+  display: inline-block;
+  background: rgba(200,134,10,.18);
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 100px;
+  margin-bottom: 28px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 6vw, 68px);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.hero-sub {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(18px, 3vw, 26px);
+  color: rgba(253,246,236,.75);
+  margin: 16px 0 40px;
+  line-height: 1.45;
+  font-style: italic;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.hero-badge {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.18);
+  color: rgba(253,246,236,.9);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 100px;
+}
+
+/* ── HERO CTA ── */
+.cta-box {
+  background: linear-gradient(135deg, var(--gold) 0%, #E09A12 100%);
+  border-radius: 20px;
+  padding: 40px 36px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 24px 64px rgba(0,0,0,.4);
+  position: relative;
+}
+
+.cta-box::before {
+  content: '🔥 MAIS VENDIDO';
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  padding: 5px 16px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.price-from {
+  font-size: 13px;
+  color: var(--brown);
+  text-decoration: line-through;
+  opacity: .7;
+  margin-bottom: 2px;
+}
+
+.price-main {
+  font-family: 'Playfair Display', serif;
+  font-size: 58px;
+  font-weight: 900;
+  color: var(--brown);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.price-main sup { font-size: 28px; vertical-align: super; }
+.price-main span { font-size: 28px; }
+
+.price-desc {
+  font-size: 13px;
+  color: var(--brown);
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  background: var(--brown);
+  color: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  padding: 18px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  letter-spacing: .02em;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 8px 24px rgba(61,26,8,.35);
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(61,26,8,.45);
+}
+
+.btn-primary small {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: .75;
+  margin-top: 3px;
+}
+
+.cta-guarantee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--brown);
+  font-weight: 500;
+}
+
+/* ── BG DECORATION ── */
+.hero-deco {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.hero-deco-1 {
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(200,134,10,.12) 0%, transparent 70%);
+  top: -120px; right: -120px;
+}
+.hero-deco-2 {
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(139,69,19,.2) 0%, transparent 70%);
+  bottom: -80px; left: -80px;
+}
+
+/* ─────────────────────────────────────────────
+   SOCIAL PROOF BAR
+───────────────────────────────────────────── */
+.proof-bar {
+  background: var(--cream);
+  border-top: 3px solid var(--gold);
+  border-bottom: 3px solid var(--gold);
+  padding: 20px 24px;
+}
+
+.proof-bar-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.proof-stat {
+  text-align: center;
+}
+
+.proof-stat strong {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.proof-stat span {
+  font-size: 12px;
+  color: var(--mid);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+/* ─────────────────────────────────────────────
+   SECTIONS BASE
+───────────────────────────────────────────── */
+section { position: relative; z-index: 1; }
+
+.section-inner {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 700;
+  color: var(--brown);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.section-title em { font-style: italic; color: var(--caramel); }
+
+.section-body {
+  font-size: 17px;
+  color: var(--mid);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+/* ─────────────────────────────────────────────
+   DOR
+───────────────────────────────────────────── */
+.pain-section {
+  background: var(--brown);
+}
+
+.pain-section .section-title { color: var(--white); }
+.pain-section .section-body { color: rgba(253,246,236,.75); }
+
+.pain-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.pain-card {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.pain-card-icon { font-size: 28px; margin-bottom: 12px; }
+
+.pain-card h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 18px;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.pain-card p {
+  font-size: 14px;
+  color: rgba(253,246,236,.65);
+  line-height: 1.7;
+}
+
+.pain-quotes {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.pain-quote {
+  background: rgba(200,134,10,.1);
+  border-left: 3px solid var(--gold);
+  padding: 14px 18px;
+  border-radius: 0 10px 10px 0;
+  font-size: 15px;
+  color: rgba(253,246,236,.85);
+  font-style: italic;
+}
+
+/* ─────────────────────────────────────────────
+   SOLUÇÃO / PRODUTO
+───────────────────────────────────────────── */
+.solution-section { background: var(--warm); }
+
+.solution-highlight {
+  background: var(--brown);
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+@media(max-width: 600px) {
+  .solution-highlight { grid-template-columns: 1fr; }
+}
+
+.solution-highlight h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(22px, 3vw, 32px);
+  color: var(--white);
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.solution-highlight h3 em { color: var(--gold); font-style: italic; }
+
+.solution-highlight p {
+  font-size: 15px;
+  color: rgba(253,246,236,.75);
+  line-height: 1.7;
+}
+
+.price-proof-box {
+  background: var(--gold);
+  border-radius: 16px;
+  padding: 28px;
+  text-align: center;
+}
+
+.price-proof-box .big-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 900;
+  color: var(--brown);
+  line-height: 1;
+}
+
+.price-proof-box .big-label {
+  font-size: 13px;
+  color: var(--brown);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.price-proof-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.price-proof-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--brown);
+  border-bottom: 1px solid rgba(61,26,8,.15);
+  padding-bottom: 6px;
+}
+
+.price-proof-row strong { font-weight: 700; }
+
+/* ─────────────────────────────────────────────
+   O QUE VOCÊ RECEBE
+───────────────────────────────────────────── */
+.product-section { background: var(--light); }
+
+.product-main {
+  border: 2px solid var(--gold);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 40px 0 32px;
+}
+
+.product-main-header {
+  background: var(--brown);
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-main-header .badge {
+  background: var(--gold);
+  color: var(--brown);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  padding: 4px 12px;
+  border-radius: 100px;
+}
+
+.product-main-header h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: var(--white);
+}
+
+.product-main-body {
+  padding: 28px;
+  background: var(--cream);
+}
+
+.product-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.product-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 15px;
+  color: var(--mid);
+}
+
+.product-feature .check {
+  width: 22px; height: 22px;
+  background: var(--brown);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* BÔNUS */
+.bonus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.bonus-card {
+  background: var(--cream);
+  border: 1.5px solid rgba(200,134,10,.3);
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.bonus-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(61,26,8,.1);
+}
+
+.bonus-tag {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: var(--gold);
+  color: var(--brown);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  padding: 4px 14px;
+  border-radius: 100px;
+}
+
+.bonus-icon { font-size: 32px; margin-bottom: 12px; }
+
+.bonus-card h4 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 17px;
+  color: var(--brown);
+  margin-bottom: 6px;
+}
+
+.bonus-card p {
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.bonus-value {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--green);
+  font-weight: 700;
+  background: var(--green-bg);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+/* ── Total value box ── */
+.value-total-box {
+  background: var(--brown);
+  border-radius: 16px;
+  padding: 28px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.value-total-box .left { flex: 1; min-width: 200px; }
+
+.value-total-box .left h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+
+.value-total-box .left p { font-size: 14px; color: rgba(253,246,236,.6); }
+
+.value-total-box .right { text-align: right; }
+
+.value-total-box .orig {
+  font-size: 14px;
+  color: rgba(253,246,236,.5);
+  text-decoration: line-through;
+}
+
+.value-total-box .actual {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.value-total-box .actual small { font-size: 22px; }
+
+/* ─────────────────────────────────────────────
+   PARA QUEM É
+───────────────────────────────────────────── */
+.forwhom-section { background: var(--warm); }
+
+.forwhom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+@media(max-width: 600px) { .forwhom-grid { grid-template-columns: 1fr; } }
+
+.forwhom-yes, .forwhom-no {
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.forwhom-yes { background: var(--green-bg); border: 1.5px solid #86EFAC; }
+.forwhom-no  { background: #FEF2F2; border: 1.5px solid #FECACA; }
+
+.forwhom-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.forwhom-yes .forwhom-label { color: var(--green); }
+.forwhom-no  .forwhom-label { color: var(--red); }
+
+.forwhom-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14.5px;
+  margin-bottom: 10px;
+  line-height: 1.55;
+}
+
+.forwhom-yes .forwhom-item { color: #14532D; }
+.forwhom-no  .forwhom-item { color: #7F1D1D; }
+
+.forwhom-dot-yes { color: var(--green); font-size: 16px; flex-shrink: 0; }
+.forwhom-dot-no  { color: var(--red);   font-size: 16px; flex-shrink: 0; }
+
+/* ─────────────────────────────────────────────
+   DEPOIMENTOS
+───────────────────────────────────────────── */
+.testimonials-section { background: var(--brown); }
+.testimonials-section .section-title { color: var(--white); }
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.testimonial-card {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.testimonial-stars {
+  color: var(--gold);
+  font-size: 16px;
+  margin-bottom: 14px;
+  letter-spacing: 2px;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  color: rgba(253,246,236,.85);
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.testimonial-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brown);
+  flex-shrink: 0;
+}
+
+.testimonial-name { font-size: 14px; font-weight: 600; color: var(--white); }
+.testimonial-role { font-size: 12px; color: rgba(253,246,236,.5); }
+
+/* ─────────────────────────────────────────────
+   CONTA REAL
+───────────────────────────────────────────── */
+.math-section { background: var(--light); }
+
+.math-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 32px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(61,26,8,.08);
+}
+
+.math-table th {
+  background: var(--brown);
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.math-table td {
+  padding: 14px 20px;
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 1px solid rgba(200,134,10,.15);
+}
+
+.math-table tr:nth-child(even) td { background: var(--cream); }
+.math-table tr:last-child td {
+  background: var(--gold);
+  color: var(--brown);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.math-table td:first-child { text-align: left; font-weight: 500; color: var(--mid); }
+
+/* ─────────────────────────────────────────────
+   GARANTIA
+───────────────────────────────────────────── */
+.guarantee-section { background: var(--warm); }
+
+.guarantee-box {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  background: var(--white);
+  border: 2px solid var(--gold);
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+@media(max-width:600px) { .guarantee-box { flex-direction: column; } }
+
+.guarantee-icon {
+  font-size: 64px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.guarantee-box h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  color: var(--brown);
+  margin-bottom: 12px;
+}
+
+.guarantee-box p {
+  font-size: 16px;
+  color: var(--mid);
+  line-height: 1.75;
+}
+
+/* ─────────────────────────────────────────────
+   FAQ
+───────────────────────────────────────────── */
+.faq-section { background: var(--light); }
+
+.faq-list { margin-top: 40px; }
+
+.faq-item {
+  border-bottom: 1px solid rgba(200,134,10,.2);
+  padding: 20px 0;
+}
+
+.faq-question {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--brown);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.faq-question .faq-icon {
+  width: 28px; height: 28px;
+  border: 1.5px solid var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 18px;
+  flex-shrink: 0;
+  transition: transform .2s;
+}
+
+.faq-item.open .faq-icon { transform: rotate(45deg); }
+
+.faq-answer {
+  font-size: 15px;
+  color: var(--mid);
+  line-height: 1.8;
+  margin-top: 12px;
+  display: none;
+}
+
+.faq-item.open .faq-answer { display: block; }
+
+/* ─────────────────────────────────────────────
+   CTA FINAL
+───────────────────────────────────────────── */
+.cta-final {
+  background: var(--brown);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-final-deco {
+  position: absolute;
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(200,134,10,.15) 0%, transparent 70%);
+  top: -200px; right: -200px;
+  pointer-events: none;
+}
+
+.cta-final .section-inner { text-align: center; }
+.cta-final .section-title { color: var(--white); }
+
+.cta-final-sub {
+  font-size: 18px;
+  color: rgba(253,246,236,.7);
+  margin-bottom: 48px;
+  font-style: italic;
+  font-family: 'DM Serif Display', serif;
+}
+
+.cta-final .cta-box {
+  margin: 0 auto;
+}
+
+/* ─────────────────────────────────────────────
+   FOOTER
+───────────────────────────────────────────── */
+footer {
+  background: #1A0A02;
+  text-align: center;
+  padding: 32px 24px;
+  font-size: 12px;
+  color: rgba(253,246,236,.3);
+  line-height: 1.8;
+}
+
+/* ─────────────────────────────────────────────
+   STICKY CTA (mobile)
+───────────────────────────────────────────── */
+.sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--brown);
+  border-top: 2px solid var(--gold);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  z-index: 100;
+  transform: translateY(100%);
+  transition: transform .3s;
+}
+
+.sticky-cta.visible { transform: translateY(0); }
+
+.sticky-cta .price {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+.sticky-cta .price small {
+  font-size: 13px;
+  color: rgba(253,246,236,.5);
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+.btn-sticky {
+  background: var(--gold);
+  color: var(--brown);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 13px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: transform .15s;
+}
+
+.btn-sticky:hover { transform: scale(1.03); }
+
+/* ─────────────────────────────────────────────
+   ANIMATIONS
+───────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  opacity: 0;
+  animation: fadeUp .7s ease forwards;
+}
+
+.fade-up:nth-child(1) { animation-delay: .1s }
+.fade-up:nth-child(2) { animation-delay: .25s }
+.fade-up:nth-child(3) { animation-delay: .4s }
+.fade-up:nth-child(4) { animation-delay: .55s }
+
+/* ─────────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────────── */
+@media(max-width: 480px) {
+  .proof-bar-inner { gap: 20px; }
+  .value-total-box { flex-direction: column; text-align: center; }
+  .value-total-box .right { text-align: center; }
+  .cta-box { padding: 28px 20px; }
+  .price-main { font-size: 48px; }
+}
+</style>
+</head>
+<body>
+
+<!-- STICKY CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <div class="price">
+    <small>Acesso imediato por</small>
+    R$37
+  </div>
+  <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#comprar" class="btn-sticky">Quero Agora →</a>
+</div>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-deco hero-deco-1"></div>
+  <div class="hero-deco hero-deco-2"></div>
+
+  <div class="hero-top-bar">
+    📦 Acesso imediato após o pagamento &nbsp;·&nbsp; 🔒 Pagamento 100% seguro &nbsp;·&nbsp; 🎁 4 Bônus inclusos
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-eyebrow fade-up">Método comprovado de venda</div>
+
+    <h1 class="fade-up">
+      Venda Fatias de<br><em>Bolo Pudim</em><br>por R$29,90 e<br>Esgote em Minutos
+    </h1>
+
+    <p class="hero-sub fade-up">
+      Sem cardápio extenso. Sem loja física.<br>Sem depender de indicação.
+    </p>
+
+    <div class="hero-badges fade-up">
+      <span class="hero-badge">✓ Um produto, resultado previsível</span>
+      <span class="hero-badge">✓ Processo para executar essa semana</span>
+      <span class="hero-badge">✓ Funciona no WhatsApp e no delivery</span>
+      <span class="hero-badge">✓ Margem acima de R$200 por bolo</span>
+    </div>
+
+    <div class="cta-box fade-up" id="comprar">
+      <div class="price-from">De R$97,00</div>
+      <div class="price-main"><sup>R$</sup>37<span>,00</span></div>
+      <div class="price-desc">pagamento único · acesso vitalício</div>
+      <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#" class="btn-primary">
+        QUERO O MÉTODO AGORA
+        <small>Clique e acesse em menos de 2 minutos</small>
+      </a>
+      <div class="cta-guarantee">
+        🔒 Garantia de 7 dias — ou seu dinheiro de volta, sem perguntas
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     SOCIAL PROOF BAR
+══════════════════════════════════════════ -->
+<div class="proof-bar">
+  <div class="proof-bar-inner">
+    <div class="proof-stat">
+      <strong>R$29,90</strong>
+      <span>por fatia vendida</span>
+    </div>
+    <div class="proof-stat">
+      <strong>&lt;20min</strong>
+      <span>para esgotar após anúncio</span>
+    </div>
+    <div class="proof-stat">
+      <strong>R$200+</strong>
+      <span>de margem por bolo</span>
+    </div>
+    <div class="proof-stat">
+      <strong>R$3.200</strong>
+      <span>faturamento mensal possível</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     DOR
+══════════════════════════════════════════ -->
+<section class="pain-section">
+  <div class="section-inner">
+    <span class="section-label">o problema real</span>
+    <h2 class="section-title" style="color:var(--white)">
+      Você sabe fazer. Mas não está <em style="color:var(--gold)">vendendo.</em>
+    </h2>
+    <p class="section-body">
+      A maioria das confeiteiras trava não por falta de habilidade — mas por falta de direção. Produto errado, oferta sem estrutura, anúncio sem estratégia. O resultado é sempre o mesmo: muito esforço, pouca venda, nenhuma previsibilidade.
+    </p>
+
+    <div class="pain-cards">
+      <div class="pain-card">
+        <div class="pain-card-icon">📉</div>
+        <h3>Dias sem pedido</h3>
+        <p>Posta, espera, nada acontece. No dia seguinte, repete. Sem resultado, sem entender por quê.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-card-icon">🔄</div>
+        <h3>Depende de indicação</h3>
+        <p>Quando vende, é porque alguém indicou. Quando para de indicar, para de vender. Sem controle nenhum.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-card-icon">😶</div>
+        <h3>Trava na hora de anunciar</h3>
+        <p>Não sabe o que escrever. Apaga e reescreve. Não posta com frequência. O produto existe, o cliente não sabe.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-card-icon">🍰</div>
+        <h3>Cardápio grande, venda pequena</h3>
+        <p>Faz de tudo. Brownie, brigadeiro, bolo, torta. O cliente não associa nenhum produto a você. Você entra na comparação de preço.</p>
+      </div>
+    </div>
+
+    <div class="pain-quotes">
+      <div class="pain-quote">"Eu faço bem, mas ninguém compra"</div>
+      <div class="pain-quote">"Só vendo quando aparece alguém"</div>
+      <div class="pain-quote">"Posto e ninguém chama"</div>
+      <div class="pain-quote">"Preciso começar essa semana"</div>
+      <div class="pain-quote">"Não sei o que escrever no anúncio"</div>
+      <div class="pain-quote">"Faço de tudo, mas vendo pouco"</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     SOLUÇÃO
+══════════════════════════════════════════ -->
+<section class="solution-section">
+  <div class="section-inner">
+    <span class="section-label">a solução</span>
+    <h2 class="section-title">
+      Um produto. Um processo.<br><em>Resultado previsível.</em>
+    </h2>
+    <p class="section-body">
+      O Método Bolo Pudim não é um ebook de receita. É um guia de renda com uma receita estratégica no centro. A diferença é simples: enquanto outros materiais ensinam a fazer, este ensina a <strong>vender</strong> — com um produto que já tem comportamento de compra validado no mercado.
+    </p>
+
+    <div class="solution-highlight">
+      <div>
+        <h3>Por que o bolo pudim <em>vende rápido</em> onde outros não vendem</h3>
+        <p>Fatias nesse formato esgotam em menos de 20 minutos após o anúncio no WhatsApp — mesmo a R$29,90. Isso acontece porque o produto não compete por preço: ele cria uma categoria visual própria na cabeça do cliente. Quem vê não pensa "está caro". Pensa "quero aquilo".</p>
+      </div>
+      <div class="price-proof-box">
+        <div class="big-num">R$29,90</div>
+        <div class="big-label">por fatia vendida</div>
+        <div class="price-proof-rows">
+          <div class="price-proof-row"><span>Custo por bolo</span><strong>~R$40</strong></div>
+          <div class="price-proof-row"><span>10 fatias × R$29,90</span><strong>R$299</strong></div>
+          <div class="price-proof-row"><span>Margem bruta</span><strong>~R$259</strong></div>
+          <div class="price-proof-row"><span>2 rodadas/semana</span><strong>~R$518</strong></div>
+          <div class="price-proof-row"><span>Faturamento/mês</span><strong>~R$2.000+</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="section-body">
+      Esses números não são promessa. São projeção baseada na estrutura de margem real do produto. O Bônus 1 — Planilha de Precificação — calcula automaticamente o seu lucro real com base nos seus custos.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     O QUE VOCÊ RECEBE
+══════════════════════════════════════════ -->
+<section class="product-section">
+  <div class="section-inner">
+    <span class="section-label">o que você leva</span>
+    <h2 class="section-title">
+      Tudo que você precisa para <em>vender essa semana</em>
+    </h2>
+
+    <!-- PRODUTO PRINCIPAL -->
+    <div class="product-main">
+      <div class="product-main-header">
+        <span class="badge">MATERIAL PRINCIPAL</span>
+        <h3>Método Bolo Pudim — Guia Completo</h3>
+      </div>
+      <div class="product-main-body">
+        <div class="product-features">
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Por que você não vende (os 5 erros reais)</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Por que esse produto específico esgota rápido</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Como executar com padrão — sem retrabalho</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Como anunciar e transformar foto em pedido</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Rotina de produção para 2 dias por semana</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Como escalar sem perder qualidade ou controle</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>A conta real: custo, margem e projeção mensal</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Receita completa com lógica de venda em cada etapa</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Como fotografar para vender — com o celular</span>
+          </div>
+          <div class="product-feature">
+            <span class="check">✓</span>
+            <span>Plano de ação de 7 dias para a primeira venda</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BÔNUS -->
+    <span class="section-label">+ 4 bônus inclusos</span>
+    <h3 style="font-family:&#39;Playfair Display&#39;,serif; font-size:26px; color:var(--brown); margin:12px 0 8px;">Bônus que eliminam as últimas travações</h3>
+    <p class="section-body" style="margin-bottom:0">Cada bônus foi escolhido para resolver um obstáculo específico que aparece entre "aprendi" e "vendi".</p>
+
+    <div class="bonus-grid">
+      <div class="bonus-card">
+        <span class="bonus-tag">BÔNUS 1</span>
+        <div class="bonus-icon">📊</div>
+        <h4>Planilha de Precificação</h4>
+        <p>Preencha seus custos reais e a planilha calcula automaticamente seu lucro por fatia, faturamento semanal e projeção mensal. Nunca mais precifique no chute.</p>
+        <span class="bonus-value">✓ Incluso gratuitamente</span>
+      </div>
+
+      <div class="bonus-card">
+        <span class="bonus-tag">BÔNUS 2</span>
+        <div class="bonus-icon">💬</div>
+        <h4>5 Textos Prontos para o WhatsApp</h4>
+        <p>Copie, ajuste o preço e poste. Cobrem todas as situações: primeiro anúncio, últimas unidades, reforço, pós-esgotamento e retomada. Cada um com erros comuns para evitar.</p>
+        <span class="bonus-value">✓ Incluso gratuitamente</span>
+      </div>
+
+      <div class="bonus-card">
+        <span class="bonus-tag">BÔNUS 3</span>
+        <div class="bonus-icon">✅</div>
+        <h4>Checklist da Primeira Venda</h4>
+        <p>Um passo a passo em formato de checklist para você não travar em nenhum ponto entre produzir e receber o primeiro pedido. Feito para vender em até 24h.</p>
+        <span class="bonus-value">✓ Incluso gratuitamente</span>
+      </div>
+
+      <div class="bonus-card">
+        <span class="bonus-tag">BÔNUS 4</span>
+        <div class="bonus-icon">📸</div>
+        <h4>Guia de Fotos que Vendem</h4>
+        <p>Ângulo certo, iluminação com janela, fundo simples. Como fazer a foto que faz o cliente parar o scroll e mandar mensagem — usando apenas o celular que você já tem.</p>
+        <span class="bonus-value">✓ Incluso gratuitamente</span>
+      </div>
+    </div>
+
+    <!-- TOTAL DE VALOR -->
+    <div class="value-total-box">
+      <div class="left">
+        <h4>Tudo isso junto vale muito mais</h4>
+        <p>Material principal + 4 bônus por um único pagamento</p>
+      </div>
+      <div class="right">
+        <div class="orig">Valor real: R$197,00</div>
+        <div class="actual"><small>R$</small>37</div>
+      </div>
+    </div>
+
+    <div style="margin-top:32px; text-align:center">
+      <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#comprar" class="btn-primary" style="max-width:440px; margin:0 auto; display:block;">
+        QUERO ACESSAR TUDO POR R$37
+        <small>Pagamento único · Acesso imediato · 7 dias de garantia</small>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PARA QUEM É
+══════════════════════════════════════════ -->
+<section class="forwhom-section">
+  <div class="section-inner">
+    <span class="section-label">para quem é</span>
+    <h2 class="section-title">
+      Este material foi feito <em>especificamente</em> para você se…
+    </h2>
+
+    <div class="forwhom-grid">
+      <div class="forwhom-yes">
+        <div class="forwhom-label">✓ É para você</div>
+        <div class="forwhom-item"><span class="forwhom-dot-yes">✓</span><span>Já faz doces mas não vende com consistência</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-yes">✓</span><span>Precisa gerar renda essa semana, não daqui a meses</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-yes">✓</span><span>Trava na hora de escrever o anúncio</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-yes">✓</span><span>Tem cardápio variado mas vende pouco</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-yes">✓</span><span>Quer começar do zero sem grande investimento</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-yes">✓</span><span>Já tentou outras coisas e quer algo que realmente funcione</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-yes">✓</span><span>Está cansada de postar e não receber pedido</span></div>
+      </div>
+
+      <div class="forwhom-no">
+        <div class="forwhom-label">✗ Não é para você</div>
+        <div class="forwhom-item"><span class="forwhom-dot-no">✗</span><span>Quer aprender confeitaria do zero (não é curso de técnica)</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-no">✗</span><span>Busca receitas gourmet ou decoração elaborada</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-no">✗</span><span>Espera resultado sem nenhuma ação da sua parte</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-no">✗</span><span>Quer montar uma confeitaria física completa</span></div>
+        <div class="forwhom-item"><span class="forwhom-dot-no">✗</span><span>Não está disposta a executar o processo ensinado</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     DEPOIMENTOS
+══════════════════════════════════════════ -->
+<section class="testimonials-section">
+  <div class="section-inner">
+    <span class="section-label" style="color:var(--gold)">resultados reais</span>
+    <h2 class="section-title">
+      Quem aplicou o método vendeu
+    </h2>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"Fiz a primeira rodada com 10 fatias e vendi em 40 minutos. Nunca tinha esgotado nada tão rápido. O texto pronto do bônus foi o que me deu coragem de postar logo."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">A</div>
+          <div>
+            <div class="testimonial-name">Ana Paula M.</div>
+            <div class="testimonial-role">Confeiteira, São Paulo</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"Eu tinha vergonha de cobrar R$29 numa fatia. Depois de entender a lógica do produto e usar a foto certa, vendi 15 fatias em uma tarde. Faturei R$435 em um dia."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">C</div>
+          <div>
+            <div class="testimonial-name">Carla R.</div>
+            <div class="testimonial-role">Confeiteira, Belo Horizonte</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"Eu ficava dias sem pedido vendendo vários doces. Foquei só no bolo pudim como o método ensina e em duas semanas já tinha uma lista de espera pra próxima rodada."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">J</div>
+          <div>
+            <div class="testimonial-name">Juliana F.</div>
+            <div class="testimonial-role">Confeiteira, Curitiba</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CONTA REAL
+══════════════════════════════════════════ -->
+<section class="math-section">
+  <div class="section-inner">
+    <span class="section-label">a conta real</span>
+    <h2 class="section-title">
+      Quanto dá para ganhar.<br><em>Em números, não em promessa.</em>
+    </h2>
+    <p class="section-body">
+      Um bolo nesse formato custa entre R$35 e R$45 em insumos. Abaixo, o que acontece quando você divide em fatias e multiplica pela semana.
+    </p>
+
+    <table class="math-table">
+      <thead>
+        <tr>
+          <th>Situação</th>
+          <th>Fatias</th>
+          <th>Preço</th>
+          <th>Faturamento</th>
+          <th>Margem bruta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Conservador (1 bolo/semana)</td>
+          <td>10</td>
+          <td>R$25</td>
+          <td>R$250</td>
+          <td>~R$210</td>
+        </tr>
+        <tr>
+          <td>Moderado (2 bolos/semana)</td>
+          <td>20</td>
+          <td>R$27</td>
+          <td>R$540</td>
+          <td>~R$460</td>
+        </tr>
+        <tr>
+          <td>Consistente (3 bolos/semana)</td>
+          <td>30</td>
+          <td>R$29,90</td>
+          <td>R$897</td>
+          <td>~R$780</td>
+        </tr>
+        <tr>
+          <td>Mensal (moderado × 4 semanas)</td>
+          <td>80</td>
+          <td>R$27</td>
+          <td>R$2.160</td>
+          <td>~R$1.840</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="section-body" style="font-size:14px; color:var(--muted)">
+      * Margem bruta = faturamento − custo de insumos estimado. Não considera embalagem ou entrega, que variam por modelo de operação. A Planilha de Precificação (Bônus 1) calcula com os seus números reais.
+    </p>
+
+    <div style="text-align:center; margin-top:40px">
+      <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#comprar" class="btn-primary" style="max-width:440px; margin:0 auto; display:block; background:var(--brown)">
+        QUERO COMEÇAR A VENDER — R$37
+        <small>Acesso imediato · Garantia de 7 dias</small>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     GARANTIA
+══════════════════════════════════════════ -->
+<section class="guarantee-section">
+  <div class="section-inner">
+    <span class="section-label">sua proteção</span>
+    <h2 class="section-title">Risco zero. <em>Garanti para você.</em></h2>
+
+    <div class="guarantee-box">
+      <div class="guarantee-icon">🛡️</div>
+      <div>
+        <h3>Garantia incondicional de 7 dias</h3>
+        <p>Se você acessar o material, aplicar o processo e não ficar satisfeita com o conteúdo por qualquer motivo — ou sem motivo nenhum — basta mandar uma mensagem em até 7 dias e o valor é devolvido integralmente. Sem perguntas, sem burocracia, sem demora. O risco é todo meu, não seu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════ -->
+<section class="faq-section">
+  <div class="section-inner">
+    <span class="section-label">dúvidas frequentes</span>
+    <h2 class="section-title">Perguntas que aparecem <em>toda hora</em></h2>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Preciso ter experiência em confeitaria para aplicar?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">Não. O material foi escrito para quem já sabe fazer doces mas não sabe vender — e também para quem está começando. A receita inclui todos os pontos críticos explicados em linguagem simples e com a lógica de cada etapa. Se você já fez um bolo na vida, consegue executar.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Quanto tempo leva para ter o primeiro resultado?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">O material inclui um Plano de 7 Dias (Capítulo 9) e o Checklist da Primeira Venda (Bônus 3) — desenhados exatamente para que você venda na primeira semana. O pudim é feito no Dia 1, a montagem no Dia 2 e o primeiro anúncio no Dia 3. Resultado não é garantido, porque depende da sua execução — mas o caminho é direto.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Precisa de iFood ou delivery para funcionar?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">Não. O canal principal ensinado é o WhatsApp — sem cadastro, sem taxa de plataforma, sem estrutura complexa. O delivery pode ser adicionado depois, quando você quiser ampliar o alcance. Mas validar pelo WhatsApp primeiro é mais rápido e mais barato.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Quanto preciso investir em insumos para começar?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">Um bolo completo (pudim + massa + recheio + cobertura) custa entre R$35 e R$45 em insumos, dependendo da sua região. É o investimento inicial para a primeira rodada de 10 fatias — que pode gerar entre R$250 e R$299 de faturamento se vendidas todas. A planilha do Bônus 1 calcula com os seus preços reais.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          E se eu não souber fotografar o produto?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">O Bônus 4 — Guia de Fotos que Vendem — cobre exatamente isso: ângulo, iluminação com luz natural de janela, fundo simples e enquadramento. Usando o celular que você já tem. Não precisa de equipamento, aplicativo pago ou conhecimento de fotografia.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Como recebo o material após o pagamento?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">Imediatamente após a confirmação do pagamento, você recebe acesso por e-mail. O material é digital — ebook em PDF e planilha em Excel — e fica disponível para você acessar quando e onde quiser, no celular ou no computador.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          Funciona para quem mora em cidade pequena?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">Sim. O WhatsApp como canal de venda funciona em qualquer cidade porque opera com seus contatos existentes e vizinhança próxima. Cidades menores muitas vezes têm menos concorrência para esse tipo de produto, o que facilita se posicionar como referência mais rapidamente.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CTA FINAL
+══════════════════════════════════════════ -->
+<section class="cta-final">
+  <div class="cta-final-deco"></div>
+  <div class="section-inner">
+    <span class="section-label">última chamada</span>
+    <h2 class="section-title">
+      Você já sabe fazer.<br><em>Agora aprenda a vender.</em>
+    </h2>
+    <p class="cta-final-sub">
+      Um produto validado. Um processo direto. Uma decisão de R$37<br>que pode mudar o que você fatura essa semana.
+    </p>
+
+    <div class="cta-box" id="comprar-final">
+      <div class="price-from">De R$97,00</div>
+      <div class="price-main"><sup>R$</sup>37<span>,00</span></div>
+      <div class="price-desc">pagamento único · acesso vitalício · 4 bônus inclusos</div>
+      <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#" class="btn-primary">
+        SIM, QUERO O MÉTODO BOLO PUDIM
+        <small>Clique e acesse em menos de 2 minutos</small>
+      </a>
+      <div class="cta-guarantee">
+        🔒 7 dias de garantia incondicional — risco zero
+      </div>
+    </div>
+
+    <div style="margin-top:32px; display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
+      <div style="color:rgba(253,246,236,.6); font-size:13px; display:flex; align-items:center; gap:6px;">🔒 Pagamento seguro</div>
+      <div style="color:rgba(253,246,236,.6); font-size:13px; display:flex; align-items:center; gap:6px;">📦 Acesso imediato</div>
+      <div style="color:rgba(253,246,236,.6); font-size:13px; display:flex; align-items:center; gap:6px;">🛡️ Garantia de 7 dias</div>
+      <div style="color:rgba(253,246,236,.6); font-size:13px; display:flex; align-items:center; gap:6px;">📱 Funciona no celular</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Método Bolo Pudim · Todos os direitos reservados</p>
+  <p style="margin-top:6px">Este produto é digital e entregue imediatamente após o pagamento. Os resultados apresentados são baseados em simulações e relatos de clientes. Resultados individuais podem variar de acordo com dedicação, contexto e execução.</p>
+  <p style="margin-top:10px">
+    <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#" style="color:rgba(253,246,236,.4); text-decoration:none; margin:0 10px">Política de Privacidade</a>
+    <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#" style="color:rgba(253,246,236,.4); text-decoration:none; margin:0 10px">Termos de Uso</a>
+    <a href="file:///home/roberto/Downloads/.zapzap_temp/metodo-bolo-pudim.html#" style="color:rgba(253,246,236,.4); text-decoration:none; margin:0 10px">Contato</a>
+  </p>
+</footer>
+
+<script>
+// FAQ accordion
+document.querySelectorAll('.faq-question').forEach(q => {
+  q.addEventListener('click', () => {
+    const item = q.parentElement;
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  });
+});
+
+// Sticky CTA
+const stickyCta = document.getElementById('stickyCta');
+const hero = document.querySelector('.hero');
+
+window.addEventListener('scroll', () => {
+  const heroBottom = hero.getBoundingClientRect().bottom;
+  if (heroBottom < 0) {
+    stickyCta.classList.add('visible');
+  } else {
+    stickyCta.classList.remove('visible');
+  }
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href="#comprar"], a[href="#comprar-final"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    document.getElementById('comprar').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+});
+</script>
+
+
+</body></html>
