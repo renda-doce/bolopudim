@@ -38,7 +38,7 @@ async function sendMetaConversion(eventName, userData = {}) {
         },
         custom_data: {
             currency: 'BRL',
-            value: 147.00 // Value of the product
+            value: 37.00 // Value of the product
         }
     };
 
@@ -53,10 +53,16 @@ async function sendMetaConversion(eventName, userData = {}) {
             body: JSON.stringify(payload)
         });
 
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error(`CAPI Error [${response.status}]: ${response.statusText}`, errorText);
+            return;
+        }
+
         const result = await response.json();
-        console.log(`CAPI Event [${eventName}] sent:`, result);
+        console.log(`CAPI Event [${eventName}] sent successfully:`, result);
         return result;
     } catch (error) {
-        console.error(`CAPI Event [${eventName}] failed:`, error);
+        console.error(`CAPI Request failed [${eventName}]:`, error);
     }
 }

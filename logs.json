@@ -1,0 +1,452 @@
+[
+  {
+    "timestamp": 1777833884482000,
+    "id": "eef60ecb-f638-4d09-accf-4f2c95f7a6e0",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs | Go-http-client/2.0",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs | Go-http-client/2.0",
+      "id": "eef60ecb-f638-4d09-accf-4f2c95f7a6e0",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": null,
+      "timestamp": 1777833884482000
+    }
+  },
+  {
+    "timestamp": 1777833836679000,
+    "id": "f26155b2-455e-4213-8c82-8fbdcb676e09",
+    "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "f26155b2-455e-4213-8c82-8fbdcb676e09",
+      "log_level": 101,
+      "method": "GET",
+      "path": "/realtime/v1/websocket",
+      "search": "?apikey=REDACTED&vsn=1.0.0",
+      "timestamp": 1777833836679000
+    }
+  },
+  {
+    "timestamp": 1777833836657000,
+    "id": "dd1fea7c-8ced-4162-b972-9f29a889d755",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "dd1fea7c-8ced-4162-b972-9f29a889d755",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777833836657000
+    }
+  },
+  {
+    "timestamp": 1777833836656000,
+    "id": "db9dade2-cc51-4236-b989-55f824b66ccf",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "db9dade2-cc51-4236-b989-55f824b66ccf",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777833836656000
+    }
+  },
+  {
+    "timestamp": 1777833725761000,
+    "id": "4de2304b-f0b2-4a82-a2a8-0e2c36b06d10",
+    "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "4de2304b-f0b2-4a82-a2a8-0e2c36b06d10",
+      "log_level": 101,
+      "method": "GET",
+      "path": "/realtime/v1/websocket",
+      "search": "?apikey=REDACTED&vsn=1.0.0",
+      "timestamp": 1777833725761000
+    }
+  },
+  {
+    "timestamp": 1777833725631000,
+    "id": "eda8a756-3bb9-4389-b3c0-d81be4a88e50",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "eda8a756-3bb9-4389-b3c0-d81be4a88e50",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777833725631000
+    }
+  },
+  {
+    "timestamp": 1777833725631000,
+    "id": "42fca2db-7049-4649-ad43-731ebd35558a",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "42fca2db-7049-4649-ad43-731ebd35558a",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777833725631000
+    }
+  },
+  {
+    "timestamp": 1777833721604000,
+    "id": "112c0483-a7b2-4ee5-a0d0-649da89db4b6",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100&pixel_id=eq.03af56d0-f5c0-4455-bd34-7719b4b383c8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100&pixel_id=eq.03af56d0-f5c0-4455-bd34-7719b4b383c8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "112c0483-a7b2-4ee5-a0d0-649da89db4b6",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100&pixel_id=eq.03af56d0-f5c0-4455-bd34-7719b4b383c8",
+      "timestamp": 1777833721604000
+    }
+  },
+  {
+    "timestamp": 1777833721447000,
+    "id": "ec0c0560-2de5-4707-b1ce-a358bb4dad86",
+    "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100&pixel_id=eq.03af56d0-f5c0-4455-bd34-7719b4b383c8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100&pixel_id=eq.03af56d0-f5c0-4455-bd34-7719b4b383c8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "ec0c0560-2de5-4707-b1ce-a358bb4dad86",
+      "log_level": 200,
+      "method": "OPTIONS",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100&pixel_id=eq.03af56d0-f5c0-4455-bd34-7719b4b383c8",
+      "timestamp": 1777833721447000
+    }
+  },
+  {
+    "timestamp": 1777833715060000,
+    "id": "0187fadb-7f6f-40f8-b6e1-41ceb61e7f4c",
+    "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "0187fadb-7f6f-40f8-b6e1-41ceb61e7f4c",
+      "log_level": 101,
+      "method": "GET",
+      "path": "/realtime/v1/websocket",
+      "search": "?apikey=REDACTED&vsn=1.0.0",
+      "timestamp": 1777833715060000
+    }
+  },
+  {
+    "timestamp": 1777833714996000,
+    "id": "00cca93f-58ed-4166-a7cd-5d34ce5fe286",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "00cca93f-58ed-4166-a7cd-5d34ce5fe286",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777833714996000
+    }
+  },
+  {
+    "timestamp": 1777833714995000,
+    "id": "79516e56-90a5-48e4-a70e-3936f25ad987",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "79516e56-90a5-48e4-a70e-3936f25ad987",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777833714995000
+    }
+  },
+  {
+    "timestamp": 1777833709703000,
+    "id": "3b1f1620-a2f0-4773-8fb6-bbc6fff20ce3",
+    "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "3b1f1620-a2f0-4773-8fb6-bbc6fff20ce3",
+      "log_level": 101,
+      "method": "GET",
+      "path": "/realtime/v1/websocket",
+      "search": "?apikey=REDACTED&vsn=1.0.0",
+      "timestamp": 1777833709703000
+    }
+  },
+  {
+    "timestamp": 1777833709666000,
+    "id": "208b56f1-fefe-40f8-93d8-055f476336f8",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "208b56f1-fefe-40f8-93d8-055f476336f8",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777833709666000
+    }
+  },
+  {
+    "timestamp": 1777833709666000,
+    "id": "e04c64f8-532e-4170-988b-45dcdb71687c",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "e04c64f8-532e-4170-988b-45dcdb71687c",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777833709666000
+    }
+  },
+  {
+    "timestamp": 1777833701195000,
+    "id": "318be7f9-6af6-4c08-92a4-298c3bf93b26",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=*%2Callowed_origins%28*%29&order=created_at.desc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=*%2Callowed_origins%28*%29&order=created_at.desc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "318be7f9-6af6-4c08-92a4-298c3bf93b26",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=*%2Callowed_origins%28*%29&order=created_at.desc",
+      "timestamp": 1777833701195000
+    }
+  },
+  {
+    "timestamp": 1777833701170000,
+    "id": "78643445-e3b5-4739-a7ba-648046820a6b",
+    "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=*%2Callowed_origins%28*%29&order=created_at.desc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=*%2Callowed_origins%28*%29&order=created_at.desc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "78643445-e3b5-4739-a7ba-648046820a6b",
+      "log_level": 200,
+      "method": "OPTIONS",
+      "path": "/rest/v1/pixels",
+      "search": "?select=*%2Callowed_origins%28*%29&order=created_at.desc",
+      "timestamp": 1777833701170000
+    }
+  },
+  {
+    "timestamp": 1777833695684000,
+    "id": "60db4d48-2f40-4bdd-91c3-f3703e6a14cc",
+    "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "60db4d48-2f40-4bdd-91c3-f3703e6a14cc",
+      "log_level": 101,
+      "method": "GET",
+      "path": "/realtime/v1/websocket",
+      "search": "?apikey=REDACTED&vsn=1.0.0",
+      "timestamp": 1777833695684000
+    }
+  },
+  {
+    "timestamp": 1777833695643000,
+    "id": "09cf24d9-4e9c-475d-8fd4-095b642e305a",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "09cf24d9-4e9c-475d-8fd4-095b642e305a",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777833695643000
+    }
+  },
+  {
+    "timestamp": 1777833695642000,
+    "id": "b9f3b2ad-b0ef-4bf6-8905-2e80b756bb33",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "b9f3b2ad-b0ef-4bf6-8905-2e80b756bb33",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777833695642000
+    }
+  },
+  {
+    "timestamp": 1777833024036000,
+    "id": "7772b626-705e-4dcd-8972-a47c37805395",
+    "event_message": "GET | 400 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=*%2Callowed_origins%28*%29&id=eq.324230336566459&is_active=eq.true | Deno/2.1.4 (variant; SupabaseEdgeRuntime/1.73.15)",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 400 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=*%2Callowed_origins%28*%29&id=eq.324230336566459&is_active=eq.true | Deno/2.1.4 (variant; SupabaseEdgeRuntime/1.73.15)",
+      "id": "7772b626-705e-4dcd-8972-a47c37805395",
+      "log_level": 400,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=*%2Callowed_origins%28*%29&id=eq.324230336566459&is_active=eq.true",
+      "timestamp": 1777833024036000
+    }
+  },
+  {
+    "timestamp": 1777832937497000,
+    "id": "36920fe1-030f-4b0f-a4a5-44d5d86f0b00",
+    "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "36920fe1-030f-4b0f-a4a5-44d5d86f0b00",
+      "log_level": 101,
+      "method": "GET",
+      "path": "/realtime/v1/websocket",
+      "search": "?apikey=REDACTED&vsn=1.0.0",
+      "timestamp": 1777832937497000
+    }
+  },
+  {
+    "timestamp": 1777832937480000,
+    "id": "05e957f6-98f5-4556-bcf1-ed49164f3e1d",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "05e957f6-98f5-4556-bcf1-ed49164f3e1d",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777832937480000
+    }
+  },
+  {
+    "timestamp": 1777832937478000,
+    "id": "2c64393f-14c7-4360-a551-1de0159eebd7",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "2c64393f-14c7-4360-a551-1de0159eebd7",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777832937478000
+    }
+  },
+  {
+    "timestamp": 1777832647174000,
+    "id": "33adbc2e-44b8-42f8-84d6-8357903e817b",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "33adbc2e-44b8-42f8-84d6-8357903e817b",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777832647174000
+    }
+  },
+  {
+    "timestamp": 1777832647173000,
+    "id": "e7fbebd2-0f48-41ad-bf41-56eee67d14ba",
+    "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "e7fbebd2-0f48-41ad-bf41-56eee67d14ba",
+      "log_level": 200,
+      "method": "GET",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777832647173000
+    }
+  },
+  {
+    "timestamp": 1777832646914000,
+    "id": "63f900d9-2b40-47ac-9a10-1cf199f33458",
+    "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "GET | 101 | https://njsxezhedrldrfrowpml.supabase.co/realtime/v1/websocket?apikey=REDACTED&vsn=1.0.0 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "63f900d9-2b40-47ac-9a10-1cf199f33458",
+      "log_level": 101,
+      "method": "GET",
+      "path": "/realtime/v1/websocket",
+      "search": "?apikey=REDACTED&vsn=1.0.0",
+      "timestamp": 1777832646914000
+    }
+  },
+  {
+    "timestamp": 1777832646867000,
+    "id": "998e04c8-2411-49ec-b195-4b9c0bb16ff7",
+    "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/pixels?select=id%2Cname&order=name.asc | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "998e04c8-2411-49ec-b195-4b9c0bb16ff7",
+      "log_level": 200,
+      "method": "OPTIONS",
+      "path": "/rest/v1/pixels",
+      "search": "?select=id%2Cname&order=name.asc",
+      "timestamp": 1777832646867000
+    }
+  },
+  {
+    "timestamp": 1777832646866000,
+    "id": "c69c5791-ee2d-43d6-856d-bfcd9d280a4f",
+    "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "OPTIONS | 200 | https://njsxezhedrldrfrowpml.supabase.co/rest/v1/conversion_logs?select=*&order=created_at.desc&limit=100 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "c69c5791-ee2d-43d6-856d-bfcd9d280a4f",
+      "log_level": 200,
+      "method": "OPTIONS",
+      "path": "/rest/v1/conversion_logs",
+      "search": "?select=*&order=created_at.desc&limit=100",
+      "timestamp": 1777832646866000
+    }
+  },
+  {
+    "timestamp": 1777830734860000,
+    "id": "5628710f-be9e-4911-93b0-9e48dba917ae",
+    "event_message": "POST | 200 | https://njsxezhedrldrfrowpml.supabase.co/auth/v1/token?grant_type=refresh_token | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "log_level": "log",
+    "details": {
+      "event_message": "POST | 200 | https://njsxezhedrldrfrowpml.supabase.co/auth/v1/token?grant_type=refresh_token | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "id": "5628710f-be9e-4911-93b0-9e48dba917ae",
+      "log_level": 200,
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "search": "?grant_type=refresh_token",
+      "timestamp": 1777830734860000
+    }
+  }
+]
