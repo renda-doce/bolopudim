@@ -1,0 +1,38 @@
+:root {
+  /* Color Palette - Premium & Appetizing */
+  --color-primary: #D4A373; /* Caramel */
+  --color-primary-dark: #b88655; /* Dark Caramel */
+  --color-secondary: #FAEDCD; /* Cream */
+  --color-accent: #E07A5F; /* Warm Red/Orange for CTA */
+  --color-accent-hover: #c96247;
+  --color-dark: #3A2F28; /* Espresso for text */
+  --color-light: #FEFAE0; /* Off-white background */
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-main: 'Outfit', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 6px rgba(58, 47, 40, 0.1);
+  --shadow-md: 0 10px 15px rgba(58, 47, 40, 0.15);
+  --shadow-glow: 0 0 20px rgba(224, 122, 95, 0.4);
+}
+
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: var(--font-main);
+}
