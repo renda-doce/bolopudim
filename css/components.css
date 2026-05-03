@@ -230,3 +230,34 @@ h2.section-title::after {
 .modal-close:hover {
   background: var(--color-accent-hover);
 }
+
+/* FAQ Section */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: var(--color-white);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-secondary);
+  transition: all 0.3s ease;
+}
+
+.faq-question {
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.faq-answer {
+  color: var(--color-dark);
+  line-height: 1.5;
+  font-size: 1rem;
+}
