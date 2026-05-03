@@ -15,3 +15,4 @@
 // Pixel ID provided by user
 fbq('init', '324230336566459');
 fbq('track', 'PageView');
+console.log('Meta Pixel Loaded with ID: 324230336566459');
