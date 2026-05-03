@@ -7,15 +7,20 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', (e) => {
             e.preventDefault(); // Prevent immediate navigation
 
-            // Track InitiateCheckout event
+            // Track InitiateCheckout event (Browser Pixel)
             if (typeof fbq === 'function') {
                 fbq('track', 'InitiateCheckout');
             }
 
-            // Small delay to allow the pixel to fire before redirecting
+            // Track InitiateCheckout event (Server-side CAPI)
+            if (typeof sendMetaConversion === 'function') {
+                sendMetaConversion('InitiateCheckout');
+            }
+
+            // Small delay to allow the pixel and CAPI call to fire before redirecting
             setTimeout(() => {
                 window.location.href = checkoutUrl;
-            }, 300);
+            }, 400);
         });
     });
 });
