@@ -4,7 +4,7 @@
  * This file handles server-side event reporting via a Supabase Edge Function.
  */
 
-const PIXEL_ID = '324230336566459';
+const PIXEL_ID = '03af56d0-f5c0-4455-bd34-7719b4b383c8'; // Internal Backend ID
 const API_URL = 'https://njsxezhedrldrfrowpml.supabase.co/functions/v1/meta-conversion';
 
 /**
