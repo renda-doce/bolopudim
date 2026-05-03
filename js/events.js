@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Small delay to allow the pixel and CAPI call to fire before redirecting
             setTimeout(() => {
-                window.location.href = checkoutUrl;
+                window.open(checkoutUrl, '_blank');
             }, 400);
         });
     });
