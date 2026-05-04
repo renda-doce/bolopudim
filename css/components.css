@@ -77,6 +77,40 @@ h2.section-title::after {
 
 .text-center { text-align: center; }
 
+/* Price Anchoring */
+.hero-price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-main);
+}
+
+.price-old {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: line-through;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+.price-new {
+  font-size: 1.3rem;
+  color: var(--color-white);
+  font-weight: 800;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.price-value {
+  font-size: clamp(3.2rem, 7vw, 4.5rem);
+  color: #FFD700; /* Richer Gold */
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.5), 0 0 30px rgba(0,0,0,0.5);
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -261,3 +295,21 @@ h2.section-title::after {
   line-height: 1.5;
   font-size: 1rem;
 }
+
+/* Mobile overrides for Hero Typography */
+@media (max-width: 767px) {
+  .text-hero-main {
+    margin-bottom: 1rem;
+  }
+  .text-script {
+    margin-left: 0;
+    margin-top: -1rem;
+  }
+  .text-hero-description {
+    margin-bottom: 1.5rem;
+  }
+  .hero-price-container {
+    margin-bottom: 1rem;
+  }
+}
+

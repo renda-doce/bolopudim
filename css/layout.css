@@ -21,8 +21,8 @@ section {
   align-items: center;
   padding-top: 60px;
   /* Space for top bar */
-  padding-bottom: 80px;
-  /* Space for bonus bar */
+  padding-bottom: 40px;
+  /* Reduced for mobile */
   overflow: hidden;
   color: var(--color-white);
 }
@@ -90,6 +90,26 @@ section {
 @media (min-width: 992px) {
   .hero-icons-grid {
     grid-template-columns: repeat(4, 1fr);
+    margin: 2rem 0;
+  }
+  .hero {
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-icons-grid {
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .hero-text-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-price-container {
+    align-items: center;
   }
 }
 
