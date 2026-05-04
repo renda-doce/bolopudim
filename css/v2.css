@@ -130,7 +130,7 @@
 .v2-hero {
   position: relative;
   min-height: 100vh;
-  padding-top: 60px;
+  padding-top: 40px; /* Reduced */
   display: flex;
   align-items: center;
   background-color: var(--v2-bg);
@@ -143,7 +143,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 20% 50%, rgba(18, 10, 6, 0.4) 0%, var(--v2-bg) 100%);
+  background: radial-gradient(circle at 50% 50%, rgba(18, 10, 6, 0.3) 0%, var(--v2-bg) 100%);
   z-index: 0;
 }
 
@@ -151,14 +151,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem; /* Reduced */
   animation: fadeInRight 1s ease-out;
 }
 
 .v2-main-image-container {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 320px; /* Reduced */
   z-index: 5;
 }
 
@@ -239,45 +239,61 @@
 
 .v2-hero-content.centered .v2-description {
   margin-inline: auto;
+  margin-bottom: 1rem; /* Reduced */
 }
 
 .v2-hero-content.centered .v2-main-image-container {
-  margin: 2rem auto;
-  max-width: 350px;
+  margin: 1rem auto; /* Reduced */
+  max-width: 300px; /* Reduced */
 }
 
 .v2-hero-content.centered .v2-price-wrapper {
   margin: 0 auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 350px; /* Reduced */
 }
 
 .v2-hero-content.centered .v2-features {
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 2rem; /* Reduced */
 }
 
 @media (max-width: 991px) {
+  .v2-hero {
+    min-height: 100vh;
+    padding-top: 30px; /* Reduced */
+  }
   .v2-hero-content {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    gap: 0.5rem; /* Reduced */
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
   }
   .v2-hero-content.centered .v2-main-image-container {
-    max-width: 250px;
+    max-width: 180px; /* Reduced even more */
+    margin: 0.5rem auto;
   }
   .v2-title {
-    font-size: clamp(1.8rem, 4vw, 3rem);
-    margin-bottom: 0.5rem;
+    font-size: clamp(1.4rem, 4vw, 2.2rem); /* Reduced */
+    margin-bottom: 0.3rem;
   }
   .v2-description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: 0.9rem; /* Reduced */
+    margin-bottom: 0.5rem;
   }
   .v2-features {
-    display: none; /* Escondido no mobile para salvar espaço na 1ª dobra */
+    display: none; 
+  }
+  .v2-price-card {
+    padding: 1rem; /* Reduced */
+  }
+  .v2-price-main {
+    font-size: 2.8rem !important; /* Reduced */
+  }
+  .v2-btn {
+    padding: 0.7rem; /* Reduced */
+    font-size: 0.95rem;
   }
 }
 
