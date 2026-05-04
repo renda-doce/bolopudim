@@ -37,19 +37,25 @@
     <div class="v2-switcher">
         <span class="switcher-title">Escolha o Tema</span>
         <div class="theme-options">
-            <div class="theme-btn btn-gold" onclick="setTheme('gold')" title="Chocolate Gold"></div>
-            <div class="theme-btn btn-midnight" onclick="setTheme('midnight')" title="Midnight Blue"></div>
-            <div class="theme-btn btn-ruby" onclick="setTheme('ruby')" title="Ruby Red"></div>
+            <label class="theme-option">
+                <input type="radio" name="theme" value="gold" checked onclick="setTheme('gold')">
+                <span class="radio-custom btn-gold"></span>
+            </label>
+            <label class="theme-option">
+                <input type="radio" name="theme" value="midnight" onclick="setTheme('midnight')">
+                <span class="radio-custom btn-midnight"></span>
+            </label>
+            <label class="theme-option">
+                <input type="radio" name="theme" value="ruby" onclick="setTheme('ruby')">
+                <span class="radio-custom btn-ruby"></span>
+            </label>
         </div>
     </div>
 
 
     <!-- Hero Section V2 -->
     <section class="v2-hero">
-        <!-- Background elements for better visibility and contrast -->
-        <div class="v2-hero-bg">
-            <img src="./img/bolopudim.png" alt="Bolo Pudim">
-        </div>
+        <!-- Background Overlay -->
         <div class="v2-hero-overlay"></div>
 
         <div class="hero-top-bar" style="background: rgba(0,0,0,0.8);">
@@ -90,15 +96,21 @@
                 </div>
             </div>
 
-            <div class="v2-price-wrapper">
-                <div class="v2-price-card">
-                    <span class="v2-price-old">De R$ 197,00</span>
-                    <span class="v2-price-label">POR APENAS</span>
-                    <div class="v2-price-main">
-                        <small>R$</small>37<small>,00</small>
+            <div class="v2-hero-visual">
+                <div class="v2-main-image-container">
+                    <img src="./img/bolopudim.png" alt="Bolo Pudim Lucrativo" class="v2-floating-cake">
+                </div>
+                
+                <div class="v2-price-wrapper">
+                    <div class="v2-price-card">
+                        <span class="v2-price-old">De R$ 197,00</span>
+                        <span class="v2-price-label">POR APENAS</span>
+                        <div class="v2-price-main">
+                            <small>R$</small>37<small>,00</small>
+                        </div>
+                        <a href="#" class="v2-btn checkout-btn" target="_blank" rel="noopener">Quero Aprender o Método</a>
+                        <p style="font-size: 0.7rem; margin-top: 0.5rem; opacity: 0.7;">Acesso imediato e vitalício</p>
                     </div>
-                    <a href="#" class="v2-btn checkout-btn" target="_blank" rel="noopener">Quero Aprender o Método</a>
-                    <p style="font-size: 0.7rem; margin-top: 0.5rem; opacity: 0.7;">Acesso imediato e vitalício</p>
                 </div>
             </div>
         </div>
@@ -139,7 +151,6 @@
     <!-- Pra quem é / Bônus -->
     <section class="v2-section v2-section-deep">
         <div class="v2-container">
-            <!-- Using the responsive grid class instead of inline styles -->
             <div class="v2-grid-split">
                 <div>
                     <h2 class="v2-section-title" style="text-align: left;">Pra quem é este método?</h2>
@@ -275,6 +286,12 @@
                 document.body.classList.add('theme-' + theme);
             }
             localStorage.setItem('v2-theme', theme);
+            
+            // Update radio buttons
+            const radios = document.querySelectorAll('input[name="theme"]');
+            radios.forEach(radio => {
+                if (radio.value === theme) radio.checked = true;
+            });
         }
 
         // Restore theme on load
