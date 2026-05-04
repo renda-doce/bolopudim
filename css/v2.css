@@ -231,6 +231,32 @@
   align-items: center;
 }
 
+.v2-hero-content.centered {
+  grid-template-columns: 1fr;
+  text-align: center;
+  max-width: 800px;
+}
+
+.v2-hero-content.centered .v2-description {
+  margin-inline: auto;
+}
+
+.v2-hero-content.centered .v2-main-image-container {
+  margin: 2rem auto;
+  max-width: 350px;
+}
+
+.v2-hero-content.centered .v2-price-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.v2-hero-content.centered .v2-features {
+  justify-content: center;
+  margin-top: 3rem;
+}
+
 @media (max-width: 991px) {
   .v2-hero-content {
     grid-template-columns: 1fr;
@@ -238,6 +264,9 @@
     gap: 1rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
+  }
+  .v2-hero-content.centered .v2-main-image-container {
+    max-width: 250px;
   }
   .v2-title {
     font-size: clamp(1.8rem, 4vw, 3rem);
@@ -248,7 +277,7 @@
     margin-bottom: 1rem;
   }
   .v2-features {
-    display: none; /* Hide features on mobile to save space */
+    display: none; /* Escondido no mobile para salvar espaço na 1ª dobra */
   }
 }
 
