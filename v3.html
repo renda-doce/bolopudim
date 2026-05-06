@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Método Bolo Pudim | Primeiro Lote</title>
+  <meta
+    content="Aprenda o bolo pudim que chama atenção, desperta desejo e pode virar destaque no cardápio. Primeiro lote por R$37."
+    name="description" />
+
+  <!-- Meta Pixel Script -->
+  <script src="js/pixel.js"></script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=324230336566459&ev=PageView&noscript=1" /></noscript>
+  <style>
+    :root {
+      --orange: #F28C28;
+      --orange-dark: #C96A12;
+      --cream: #FFF4E4;
+      --cream-2: #F8E6CD;
+      --brown: #2B1A12;
+      --brown-soft: #5E3B24;
+      --black: #19130F;
+      --white: #FFFFFF;
+      --muted: #735B4B;
+      --green: #1E7A4A;
+      --shadow: 0 18px 50px rgba(43, 26, 18, .14);
+      --radius: 26px;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--cream), #fff 38%, var(--cream) 100%);
+      color: var(--brown);
+      line-height: 1.45
+    }
+
+    img {
+      max-width: 100%;
+      display: block
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit
+    }
+
+    .wrap {
+      width: min(1120px, 92vw);
+      margin-inline: auto
+    }
+
+    .topbar {
+      background: var(--brown);
+      color: #fff;
+      padding: 10px 0;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: .2px
+    }
+
+    .timer-top {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap
+    }
+
+    .timer-pills {
+      display: flex;
+      gap: 7px
+    }
+
+    .timer-pills span {
+      background: rgba(255, 255, 255, .12);
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 10px;
+      padding: 6px 8px;
+      min-width: 48px;
+      display: inline-block
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 38px 0 36px;
+      background: radial-gradient(circle at 80% 15%, rgba(242, 140, 40, .26), transparent 30%), linear-gradient(135deg, #fff9ef 0%, #ffe7c4 100%)
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.02fr .98fr;
+      gap: 38px;
+      align-items: center
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #fff;
+      border: 1px solid rgba(242, 140, 40, .36);
+      color: var(--orange-dark);
+      padding: 9px 13px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      box-shadow: 0 8px 24px rgba(242, 140, 40, .12)
+    }
+
+    h1 {
+      font-family: Inter, sans-serif;
+      font-size: clamp(36px, 5vw, 66px);
+      line-height: .94;
+      margin: 18px 0 18px;
+      font-weight: 950;
+      letter-spacing: -2px;
+      color: var(--black)
+    }
+
+    .serif {
+      font-family: Georgia, serif;
+      color: var(--orange-dark);
+      font-style: italic;
+      letter-spacing: -1px
+    }
+
+    .sub {
+      font-size: clamp(18px, 2.3vw, 24px);
+      color: var(--brown-soft);
+      font-weight: 600;
+      max-width: 620px;
+      margin: 0 0 22px
+    }
+
+    .bullets {
+      display: grid;
+      gap: 10px;
+      margin: 22px 0
+    }
+
+    .bullet {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--brown)
+    }
+
+    .ico {
+      width: 22px;
+      height: 22px;
+      flex: 0 0 22px;
+      color: var(--orange-dark)
+    }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(180deg, var(--orange), var(--orange-dark));
+      color: #fff;
+      border: 0;
+      border-radius: 16px;
+      padding: 18px 25px;
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      box-shadow: 0 14px 30px rgba(242, 140, 40, .35);
+      transition: .2s transform, .2s box-shadow;
+      cursor: pointer;
+      text-align: center
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 20px 38px rgba(242, 140, 40, .42)
+    }
+
+    .micro {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 10px;
+      font-weight: 700
+    }
+
+    .price-line {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 16px 0 0
+    }
+
+    .old {
+      text-decoration: line-through;
+      color: #9a8170;
+      font-weight: 700
+    }
+
+    .new {
+      font-size: 44px;
+      font-weight: 950;
+      color: var(--black)
+    }
+
+    .lot {
+      background: #fff;
+      border: 1px solid rgba(201, 106, 18, .2);
+      border-radius: 16px;
+      padding: 12px 14px;
+      display: inline-block;
+      font-weight: 900;
+      color: var(--orange-dark)
+    }
+
+    .hero-card {
+      position: relative
+    }
+
+    .photo-card {
+      background: #fff;
+      border: 10px solid #fff;
+      border-radius: 34px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      transform: rotate(1.2deg)
+    }
+
+    .photo-card img {
+      aspect-ratio: 4/4.3;
+      object-fit: cover;
+      width: 100%
+    }
+
+    .floating {
+      position: absolute;
+      left: -14px;
+      bottom: 28px;
+      background: #fff;
+      border-radius: 18px;
+      padding: 14px 16px;
+      box-shadow: 0 16px 42px rgba(43, 26, 18, .2);
+      max-width: 250px;
+      font-weight: 850
+    }
+
+    .floating small {
+      display: block;
+      color: var(--muted);
+      font-weight: 700;
+      margin-top: 3px
+    }
+
+    section {
+      padding: 58px 0
+    }
+
+    .section-title {
+      font-size: clamp(29px, 4vw, 48px);
+      line-height: 1.02;
+      letter-spacing: -1.3px;
+      margin: 0 0 14px;
+      color: var(--black);
+      font-weight: 950
+    }
+
+    .section-lead {
+      font-size: 19px;
+      color: var(--brown-soft);
+      max-width: 770px;
+      margin: 0 auto 30px;
+      font-weight: 600
+    }
+
+    .center {
+      text-align: center
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid rgba(43, 26, 18, .08);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(43, 26, 18, .06)
+    }
+
+    .card h3 {
+      margin: 12px 0 8px;
+      font-size: 21px;
+      color: var(--black)
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 600
+    }
+
+    .pain {
+      background: #fff
+    }
+
+    .pain-box {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 30px;
+      align-items: center
+    }
+
+    .quote {
+      font-size: 28px;
+      font-weight: 950;
+      line-height: 1.12;
+      color: var(--black)
+    }
+
+    .soft-list {
+      display: grid;
+      gap: 12px
+    }
+
+    .soft-item {
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: var(--cream);
+      font-weight: 800;
+      color: var(--brown)
+    }
+
+    .trend {
+      background: linear-gradient(135deg, var(--brown), #130c08);
+      color: #fff
+    }
+
+    .trend .section-title,
+    .trend .section-lead {
+      color: #fff
+    }
+
+    .trend .section-lead {
+      opacity: .86
+    }
+
+    .trend-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 24px;
+      align-items: center
+    }
+
+    .trend-card {
+      background: rgba(255, 255, 255, .08);
+      border: 1px solid rgba(255, 255, 255, .15);
+      border-radius: var(--radius);
+      padding: 26px
+    }
+
+    .trend-card strong {
+      color: #ffd29a
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: 1.3fr .7fr;
+      gap: 18px
+    }
+
+    .gallery-main,
+    .gallery-side img {
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      background: #fff
+    }
+
+    .gallery-main img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover
+    }
+
+    .gallery-side {
+      display: grid;
+      gap: 18px
+    }
+
+    .gallery-side img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover
+    }
+
+    .caption {
+      margin-top: 14px;
+      color: var(--muted);
+      font-weight: 700;
+      text-align: center
+    }
+
+    .photo-strip {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px
+    }
+
+    .photo-strip img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 22px;
+      box-shadow: 0 10px 28px rgba(43, 26, 18, .08);
+      background: #fff
+    }
+
+    .messages {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 26px
+    }
+
+    .msg {
+      background: #fff;
+      border-radius: 22px;
+      padding: 17px;
+      border: 1px solid rgba(43, 26, 18, .08);
+      box-shadow: 0 10px 30px rgba(43, 26, 18, .07)
+    }
+
+    .msg .name {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 800;
+      margin-bottom: 7px
+    }
+
+    .msg .bubble {
+      background: #EEF7EF;
+      border-radius: 16px 16px 16px 4px;
+      padding: 13px;
+      font-weight: 800;
+      color: #163D29
+    }
+
+    .learn {
+      background: var(--cream)
+    }
+
+    .learn-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 22px
+    }
+
+    .check {
+      background: #fff;
+      border-radius: 18px;
+      padding: 18px;
+      font-weight: 850;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      border: 1px solid rgba(43, 26, 18, .07)
+    }
+
+    .offer {
+      background: #fff
+    }
+
+    .offer-box {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 28px;
+      align-items: center;
+      background: linear-gradient(135deg, #fff, var(--cream));
+      border: 1px solid rgba(242, 140, 40, .22);
+      border-radius: 34px;
+      padding: 30px;
+      box-shadow: var(--shadow)
+    }
+
+    .price-big {
+      font-size: 76px;
+      line-height: .9;
+      font-weight: 950;
+      color: var(--black);
+      letter-spacing: -3px
+    }
+
+    .installments {
+      font-weight: 800;
+      color: var(--brown-soft);
+      margin: 8px 0 18px
+    }
+
+    .included {
+      display: grid;
+      gap: 10px;
+      margin: 20px 0
+    }
+
+    .included div {
+      background: #fff;
+      border-radius: 14px;
+      padding: 12px 14px;
+      font-weight: 800
+    }
+
+    .guarantee {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      background: #F5FFF8;
+      border: 1px solid rgba(30, 122, 74, .18);
+      border-radius: 24px;
+      padding: 20px;
+      margin-top: 18px
+    }
+
+    .seal {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-weight: 950;
+      flex: 0 0 64px
+    }
+
+    .bonus {
+      background: linear-gradient(180deg, #fff 0%, #fff4e2 100%)
+    }
+
+    .bonus-box {
+      background: linear-gradient(135deg, #2B1A12 0%, #4a2c18 100%);
+      color: #fff;
+      border-radius: 34px;
+      padding: 34px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative
+    }
+
+    .bonus-box:before {
+      content: "";
+      position: absolute;
+      right: -80px;
+      top: -80px;
+      width: 240px;
+      height: 240px;
+      background: rgba(242, 140, 40, .28);
+      border-radius: 50%;
+      filter: blur(8px)
+    }
+
+    .bonus .section-title,
+    .bonus .section-lead {
+      color: #fff
+    }
+
+    .bonus .section-lead {
+      opacity: .88
+    }
+
+    .bonus-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 26px;
+      position: relative
+    }
+
+    .bonus-card {
+      background: rgba(255, 255, 255, .09);
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: 22px;
+      padding: 22px;
+      text-align: left
+    }
+
+    .bonus-card b {
+      display: block;
+      font-size: 19px;
+      margin: 10px 0 8px;
+      color: #ffd29a
+    }
+
+    .bonus-card p {
+      margin: 0;
+      font-weight: 650;
+      color: rgba(255, 255, 255, .86)
+    }
+
+    .bonus-tag {
+      display: inline-flex;
+      border: 1px solid rgba(255, 255, 255, .22);
+      background: rgba(255, 255, 255, .10);
+      border-radius: 999px;
+      padding: 9px 13px;
+      font-weight: 900;
+      color: #ffd29a;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: .4px
+    }
+
+    .faq details {
+      background: #fff;
+      border: 1px solid rgba(43, 26, 18, .09);
+      border-radius: 18px;
+      padding: 18px 20px;
+      margin-bottom: 12px;
+      box-shadow: 0 8px 24px rgba(43, 26, 18, .04)
+    }
+
+    .faq summary {
+      font-weight: 900;
+      cursor: pointer;
+      color: var(--black)
+    }
+
+    .faq p {
+      color: var(--muted);
+      font-weight: 650;
+      margin-bottom: 0
+    }
+
+    .final {
+      background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+      color: #fff;
+      text-align: center
+    }
+
+    .final .section-title {
+      color: #fff
+    }
+
+    .final p {
+      font-size: 20px;
+      font-weight: 700;
+      max-width: 760px;
+      margin: 0 auto 24px
+    }
+
+    .final .cta {
+      background: #fff;
+      color: var(--orange-dark);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, .18)
+    }
+
+    .sticky {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, .94);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(43, 26, 18, .1);
+      padding: 10px 12px;
+      display: none;
+      z-index: 99
+    }
+
+    .sticky-inner {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between
+    }
+
+    .sticky strong {
+      font-size: 14px
+    }
+
+    .sticky .cta {
+      padding: 13px 14px;
+      border-radius: 13px;
+      font-size: 13px
+    }
+
+    .placeholder {
+      background: linear-gradient(135deg, #f7d4a7, #fff2df);
+      display: grid;
+      place-items: center;
+      color: var(--brown-soft);
+      font-weight: 900;
+      text-align: center;
+      padding: 24px;
+      min-height: 320px
+    }
+
+    .placeholder small {
+      display: block;
+      font-weight: 700;
+      margin-top: 8px;
+      color: var(--muted)
+    }
+
+    @media(max-width:900px) {
+
+      .hero-grid,
+      .pain-box,
+      .trend-grid,
+      .offer-box,
+      .gallery {
+        grid-template-columns: 1fr
+      }
+
+      .grid-3,
+      .messages,
+      .learn-grid,
+      .photo-strip,
+      .bonus-grid {
+        grid-template-columns: 1fr
+      }
+
+      .hero {
+        padding: 28px 0
+      }
+
+      .floating {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        margin: -18px auto 0;
+        max-width: 92%;
+        transform: none
+      }
+
+      .photo-card {
+        transform: none
+      }
+
+      .gallery-main img {
+        min-height: 320px
+      }
+
+      .sticky {
+        display: block
+      }
+
+      body {
+        padding-bottom: 74px
+      }
+
+      .topbar {
+        font-size: 12px
+      }
+
+      .price-big {
+        font-size: 58px
+      }
+    }
+
+    .testimonials {
+      background: linear-gradient(180deg, #fffaf1 0%, #fff4e2 100%)
+    }
+
+    .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 28px
+    }
+
+    .testi {
+      background: #fff;
+      border: 1px solid rgba(122, 68, 26, .12);
+      border-radius: 24px;
+      padding: 22px;
+      box-shadow: 0 12px 34px rgba(43, 26, 18, .07);
+      text-align: left
+    }
+
+    .testi .stars {
+      letter-spacing: 2px;
+      color: var(--orange);
+      font-size: 15px;
+      margin-bottom: 12px
+    }
+
+    .testi p {
+      margin: 0;
+      color: #3d2a20;
+      font-weight: 700;
+      line-height: 1.55
+    }
+
+    .testi .person {
+      margin-top: 16px;
+      font-weight: 950;
+      color: var(--brown)
+    }
+
+    .testi small {
+      display: block;
+      color: var(--muted);
+      font-weight: 700;
+      margin-top: 3px
+    }
+
+    .proof-note {
+      margin: 22px auto 0;
+      max-width: 780px;
+      color: var(--muted);
+      font-weight: 750;
+      line-height: 1.55
+    }
+
+    img {
+      image-rendering: auto;
+      backface-visibility: hidden
+    }
+
+    .gallery-main img,
+    .gallery-side img,
+    .photo-strip img {
+      max-height: none
+    }
+
+    @media(max-width:900px) {
+      .testi-grid {
+        grid-template-columns: 1fr
+      }
+
+      .gallery-main img,
+      .gallery-side img,
+      .photo-strip img {
+        min-height: auto;
+        max-height: none;
+        height: auto
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="wrap timer-top">
+      <span>Primeiro lote por R$37 termina em</span>
+      <div aria-label="Contador regressivo" class="timer-pills">
+        <span id="hTop">00h</span><span id="mTop">00m</span><span id="sTop">00s</span>
+      </div>
+    </div>
+  </div>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Método Bolo Pudim • Primeiro lote aberto</div>
+        <h1>O bolo que faz a pessoa parar, olhar e perguntar: <span class="serif">tem pra hoje?</span></h1>
+        <div class="hero-card">
+          <div class="photo-card">
+            <img alt="Bolo Pudim - Foto ilustrativa" src="./img/bolopudim-mobile.webp" />
+          </div>
+          <div class="floating">Esse não parece “só mais um bolo”. <small>É o tipo de produto que chama pergunta no
+              WhatsApp.</small></div>
+        </div>
+        <br />
+
+        <p class="sub">Aprenda um bolo pudim visualmente irresistível, com acabamento bonito e jeito de produto de
+          cardápio — para chamar atenção antes mesmo da primeira mordida.</p>
+        <div class="bullets">
+          <div class="bullet"><svg class="ico" fill="none" viewbox="0 0 24 24">
+              <path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="2.6"></path>
+            </svg> Produto tendência, diferente e fácil de destacar nas redes</div>
+          <div class="bullet"><svg class="ico" fill="none" viewbox="0 0 24 24">
+              <path d="M12 2v20M2 12h20" stroke="currentColor" stroke-linecap="round" stroke-width="2.4"></path>
+            </svg> Passo a passo direto para fazer com segurança</div>
+          <div class="bullet"><svg class="ico" fill="none" viewbox="0 0 24 24">
+              <path d="M4 12h16M12 4v16" stroke="currentColor" stroke-linecap="round" stroke-width="2.4"></path>
+            </svg> Primeiro lote promocional por apenas R$37</div>
+        </div>
+        <a class="cta checkout-btn" href="https://pay.hotmart.com/P105533205X?checkoutMode=10">Quero aprender agora</a>
+        <div class="micro">Acesso imediato • Garantia de 7 dias • Conteúdo simples e objetivo</div>
+        <div class="price-line"><span class="old">Depois R$67</span><span class="new">R$37</span><span class="lot">lote
+            atual</span></div>
+      </div>
+    </div>
+  </header>
+  <section class="pain">
+    <div class="wrap pain-box">
+      <div class="quote">Não basta fazer doce bom. No delivery, primeiro ele precisa dar vontade de pedir.</div>
+      <div class="soft-list">
+        <div class="soft-item">Você posta, mas pouca gente pergunta preço.</div>
+        <div class="soft-item">Você sabe fazer coisas gostosas, mas sente que o cardápio não chama atenção.</div>
+        <div class="soft-item">Você quer um produto simples, bonito e com cara de encomenda.</div>
+        <div class="soft-item">Você precisa de algo que a cliente olhe e pense: “eu quero isso”.</div>
+      </div>
+    </div>
+  </section>
+  <section class="trend">
+    <div class="wrap trend-grid">
+      <div>
+        <h2 class="section-title">Bolo pudim <span style="color: rgb(201, 125, 125);">viralizou</span> porque junta as
+          coisas que o
+          brasileiro já ama.
+        </h2>
+        <p class="section-lead" style="text-align:left;margin-left:0">Bolo macio, pudim cremoso, calda brilhante e
+          visual de sobremesa especial. É familiar o bastante para dar confiança e diferente o bastante para gerar
+          curiosidade.</p>
+      </div>
+      <div class="trend-card">
+        <p><strong>É aqui que está a oportunidade:</strong> quando um produto parece gostoso antes da explicação, ele
+          vende mais rápido. A pessoa não precisa entender técnica. Ela bate o olho, sente vontade e pergunta como
+          compra.</p>
+        <p><strong>Por isso essa página não vende “uma receita”.</strong> Ela vende um produto de desejo para colocar no
+          cardápio.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap center">
+      <h2 class="section-title">O visual que faz a venda começar antes da conversa</h2>
+      <p class="section-lead">Use as imagens reais do seu bolo pra vender. Close da calda, corte perfeito e textura são
+        os elementos que mais geram desejo. Veja algumas variações que você pode fazer com a receita base, como elas
+        geram desejo imediato:</p>
+      <div class="gallery">
+        <div class="gallery-main">
+          <img alt="Bolo pudim 2" height="720" width="540" loading="lazy" src="img/carrossel/6.webp" />
+        </div>
+        <div class="gallery-side">
+          <img alt="Close da fatia de bolo pudim com camadas" height="720" width="480" loading="lazy"
+            src="img/carrossel/1.webp" />
+          <img alt="Topo do bolo pudim com chantilly e mini pudins" height="680" loading="lazy"
+            src="img/carrossel/2.webp" width="520" />
+        </div>
+      </div>
+      <div aria-label="Mais fotos do bolo pudim" class="photo-strip">
+        <img alt="Fatia servida de bolo pudim" decoding="async" height="760" loading="lazy" src="img/carrossel/3.webp"
+          width="500" />
+        <img alt="Bolo pudim com corte aparente" decoding="async" height="430" loading="lazy" src="img/carrossel/4.webp"
+          width="760" />
+        <img alt="Bolo pudim retangular finalizado" decoding="async" height="640" loading="lazy"
+          src="img/carrossel/5.webp" width="980" />
+      </div>
+      <div class="caption">Quanto mais a foto parecer “quero agora”, menos texto a pessoa precisa ler para desejar.
+      </div>
+    </div>
+  </section>
+  <section class="learn">
+    <div class="wrap center">
+      <h2 class="section-title">Imagine receber mensagens assim</h2>
+      <div class="messages">
+        <div class="msg">
+          <div class="name">Cliente no WhatsApp</div>
+          <div class="bubble">Oi, esse bolo pudim tem pra hoje?</div>
+        </div>
+        <div class="msg">
+          <div class="name">Cliente no Instagram</div>
+          <div class="bubble">Quanto fica um desse? Faz entrega?</div>
+        </div>
+        <div class="msg">
+          <div class="name">Cliente recorrente</div>
+          <div class="bubble">Quero encomendar para o fim de semana.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="wrap center">
+      <h2 class="section-title">Depoimentos de quem já comprou nosso método:</h2>
+      <div class="testi-grid">
+        <div class="testi">
+          <div class="stars">★★★★★</div>
+          <p>“Eu achava que bolo pudim era difícil de acertar, mas o passo a passo deixou tudo mais claro. O visual fica
+            muito chamativo.”</p>
+          <div class="person">Marli Fernandes</div><small>Faz doces por encomenda em casa</small>
+        </div>
+        <div class="testi">
+          <div class="stars">★★★★★</div>
+          <p>“Coloquei a foto no status e já perguntaram se tinha pronta entrega. É o tipo de bolo que a pessoa olha e
+            quer saber o preço.”</p>
+          <div class="person">Renata Oliveira</div><small>Vende pelo WhatsApp e Instagram</small>
+        </div>
+        <div class="testi">
+          <div class="stars">★★★★★</div>
+          <p>“Gostei porque não parece só mais uma sobremesa. Ele fica com cara de produto especial, daqueles que chamam
+            atenção no cardápio.”</p>
+          <div class="person">Patrícia Lima</div><small>Confeitaria caseira</small>
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="wrap center">
+      <h2 class="section-title">Dentro do método, você aprende o que precisa para começar</h2>
+      <div class="learn-grid">
+        <div class="check"><svg class="ico" fill="none" viewbox="0 0 24 24">
+            <path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2.6"></path>
+          </svg>Como preparar o bolo pudim com textura bonita e aparência apetitosa.</div>
+        <div class="check"><svg class="ico" fill="none" viewbox="0 0 24 24">
+            <path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2.6"></path>
+          </svg>Como montar e finalizar para ficar com cara de produto profissional.</div>
+        <div class="check"><svg class="ico" fill="none" viewbox="0 0 24 24">
+            <path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2.6"></path>
+          </svg>Como evitar erros que deixam o bolo feio, quebrado ou sem estrutura.</div>
+        <div class="check"><svg class="ico" fill="none" viewbox="0 0 24 24">
+            <path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2.6"></path>
+          </svg>Como apresentar esse produto como destaque do cardápio.</div>
+      </div>
+    </div>
+  </section>
+  <section class="bonus">
+    <div class="wrap">
+      <div class="bonus-box center">
+        <div class="bonus-tag">Bônus incluídos no primeiro lote</div>
+        <h2 class="section-title" style="margin-top:14px">Além do passo a passo, você recebe materiais para colocar o
+          bolo no cardápio com mais segurança.</h2>
+        <div class="bonus-grid">
+          <div class="bonus-card"><svg class="ico" fill="none" viewBox="0 0 24 24">
+              <path d="M6 3h9l3 3v15H6zM14 3v4h4M8 11h8M8 15h8" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" />
+            </svg><b>Apostila de apoio</b>
+            <p>Um material simples para consultar o preparo, a montagem e os principais cuidados.</p>
+          </div>
+          <div class="bonus-card"><svg class="ico" fill="none" viewBox="0 0 24 24">
+              <path d="M4 7h16M7 4v16M17 4v16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" />
+            </svg><b>Guia de precificação</b>
+            <p>Para não vender no escuro e entender melhor como transformar o bolo em produto.</p>
+          </div>
+          <div class="bonus-card"><svg class="ico" fill="none" viewBox="0 0 24 24">
+              <path d="M5 5h14v10H8l-3 3zM8 9h8M8 12h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><b>Modelos de divulgação</b>
+            <p>Frases prontas para anunciar no WhatsApp, status e Instagram sem travar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pain">
+    <div class="wrap center">
+      <h2 class="section-title">Mesmo que você esteja começando agora</h2>
+      <p class="section-lead">Você não precisa de estrutura grande para começar com um produto de desejo.</p>
+      <div class="grid-3">
+        <div class="card"><svg class="ico" fill="none" viewbox="0 0 24 24">
+            <path d="M4 7h16v13H4zM8 7V4h8v3" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+          <h3>Não precisa vender todos os dias ainda</h3>
+          <p>Esse pode ser justamente o produto para chamar mais atenção no cardápio.</p>
+        </div>
+        <div class="card"><svg class="ico" fill="none" viewbox="0 0 24 24">
+            <path d="M12 3v18M5 8h14M7 16h10" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+          </svg>
+          <h3>Não precisa de equipamentos caros</h3>
+          <p>A ideia é começar de forma possível, com orientação simples e direta.</p>
+        </div>
+        <div class="card"><svg class="ico" fill="none" viewbox="0 0 24 24">
+            <path d="M8 12l3 3 5-6M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+          <h3>Não precisa ser confeiteira profissional</h3>
+          <p>Você aprende o passo a passo para fazer com mais segurança.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="offer" id="comprar">
+    <div class="wrap offer-box">
+      <div>
+        <div class="eyebrow">Oferta de primeiro lote</div>
+        <h2 class="section-title" style="margin-top:14px">Entre agora por R$37 antes da virada de lote.</h2>
+        <p class="section-lead" style="text-align:left;margin-left:0">Quando o primeiro lote encerrar, o valor previsto
+          sobe para R$67. A ideia é simples: quem entra primeiro paga menos.</p>
+        <div class="guarantee">
+          <div class="seal">7D</div>
+          <div><strong>Garantia de 7 dias.</strong><br />Você acessa, avalia e, se não gostar, pode pedir reembolso
+            dentro do prazo.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="lot">Lote atual</div>
+        <div class="price-big">R$37</div>
+        <div class="installments">Acesso imediato ao Método Bolo Pudim</div>
+        <div class="included">
+          <div>Passo a passo do bolo pudim</div>
+          <div>Orientação para acabamento bonito</div>
+          <div>Ideia de produto para cardápio e delivery</div>
+          <div>Bônus: apostila, precificação e modelos de divulgação</div>
+          <div>Compra segura com garantia</div>
+        </div>
+        <a class="cta checkout-btn" href="https://pay.hotmart.com/P105533205X?checkoutMode=10" style="width:100%">Quero garantir por R$37</a>
+        <div class="micro center">Depois do contador, o lote promocional pode sair do ar.</div>
+        <div class="timer-pills" style="justify-content:center;margin-top:12px;color:var(--brown)"><span
+            id="hOffer">00h</span><span id="mOffer">00m</span><span id="sOffer">00s</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="wrap">
+      <h2 class="section-title center">Perguntas frequentes</h2>
+      <details open="">
+        <summary>O acesso é imediato?</summary>
+        <p>Sim. Depois da compra aprovada, você recebe as instruções de acesso no e-mail informado na compra.</p>
+      </details>
+      <details>
+        <summary>Serve para iniciantes?</summary>
+        <p>Sim. A proposta é ensinar de forma simples, direta e possível para quem quer começar com um produto bonito e
+          chamativo.</p>
+      </details>
+      <details>
+        <summary>Eu preciso de equipamentos caros?</summary>
+        <p>Não, você já pode começar hoje com o que você tem em casa.</p>
+      </details>
+      <details>
+        <summary>Por quanto tempo tenho acesso?</summary>
+        <p>O acesso é vitalício. Você poderá acessar o Método Bolo Pudim quando e onde quiser.</p>
+      </details>
+      <details>
+        <summary>Tem garantia?</summary>
+        <p>Sim. Você tem 7 dias de garantia para avaliar o conteúdo.</p>
+      </details>
+    </div>
+  </section>
+  <section class="final">
+    <div class="wrap">
+      <h2 class="section-title">A cliente não compra só porque é bolo. Ela compra porque deu vontade.</h2>
+      <p>Coloque no seu cardápio um produto que chama atenção, abre conversa e aumenta a chance de pedido por impulso.
+      </p>
+      <a class="cta checkout-btn" href="https://pay.hotmart.com/P105533205X?checkoutMode=10">Quero aprender agora por R$37</a>
+    </div>
+  </section>
+  <div class="sticky">
+    <div class="wrap sticky-inner">
+      <strong>Primeiro lote: <span class="old">R$67</span> R$37</strong>
+      <a class="cta checkout-btn" href="https://pay.hotmart.com/P105533205X?checkoutMode=10">Garantir acesso</a>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const HOURS = 6; // urgência leve: contador individual de 6 horas por visitante
+      const key = 'bp_lote_deadline_v1';
+      let deadline = localStorage.getItem(key);
+      if (!deadline || Number(deadline) < Date.now()) {
+        deadline = Date.now() + HOURS * 60 * 60 * 1000;
+        localStorage.setItem(key, deadline);
+      }
+      function pad(n) { return String(n).padStart(2, '0'); }
+      function tick() {
+        const left = Math.max(0, Number(deadline) - Date.now());
+        const h = Math.floor(left / 36e5);
+        const m = Math.floor((left % 36e5) / 6e4);
+        const s = Math.floor((left % 6e4) / 1000);
+        ['Top', 'Offer'].forEach(id => {
+          document.getElementById('h' + id).textContent = pad(h) + 'h';
+          document.getElementById('m' + id).textContent = pad(m) + 'm';
+          document.getElementById('s' + id).textContent = pad(s) + 's';
+        });
+      }
+      tick(); setInterval(tick, 1000);
+    })();
+  </script>
+  <script src="js/capi.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
