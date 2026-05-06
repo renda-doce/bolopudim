@@ -1169,9 +1169,12 @@
         const m = Math.floor((left % 36e5) / 6e4);
         const s = Math.floor((left % 6e4) / 1000);
         ['Top', 'Offer'].forEach(id => {
-          document.getElementById('h' + id).textContent = pad(h) + 'h';
-          document.getElementById('m' + id).textContent = pad(m) + 'm';
-          document.getElementById('s' + id).textContent = pad(s) + 's';
+          const hEl = document.getElementById('h' + id);
+          const mEl = document.getElementById('m' + id);
+          const sEl = document.getElementById('s' + id);
+          if (hEl) hEl.textContent = pad(h) + 'h';
+          if (mEl) mEl.textContent = pad(m) + 'm';
+          if (sEl) sEl.textContent = pad(s) + 's';
         });
       }
       tick(); setInterval(tick, 1000);
