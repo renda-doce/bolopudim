@@ -1,4 +1,6 @@
-// js/pixel.js
+// Generate a unique ID for PageView deduplication
+window.pageViewEventId = 'pv_' + Date.now() + '_' + Math.random().toString(36).substring(2, 9);
+
 // Meta Pixel Code Initialization
 !function (f, b, e, v, n, t, s) {
     if (f.fbq) return; n = f.fbq = function () {
@@ -14,5 +16,5 @@
 
 // Pixel ID provided by user
 fbq('init', '324230336566459');
-fbq('track', 'PageView');
-console.log('Meta Pixel Loaded with ID: 324230336566459');
+fbq('track', 'PageView', {}, { eventID: window.pageViewEventId });
+console.log('Meta Pixel Loaded with ID: 324230336566459', 'Event ID:', window.pageViewEventId);

@@ -20,7 +20,7 @@ function getMetaCookie(name) {
 /**
  * Sends an event to the Meta Conversions API via the backend endpoint
  */
-async function sendMetaConversion(eventName, userData = {}) {
+async function sendMetaConversion(eventName, userData = {}, eventId = null) {
     const fbp = getMetaCookie('_fbp');
     const fbc = getMetaCookie('_fbc');
 
@@ -30,6 +30,7 @@ async function sendMetaConversion(eventName, userData = {}) {
         event_time: Math.floor(Date.now() / 1000),
         action_source: 'website',
         event_source_url: window.location.href,
+        event_id: eventId,
         user_data: {
             client_user_agent: navigator.userAgent,
             fbp: fbp,
